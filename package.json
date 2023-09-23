@@ -38,9 +38,6 @@
     "dev": "esbuild src/test.ts --bundle --format=cjs --outfile=out/index.cjs && node out/index.cjs",
     "tsc": "tsc --emitDeclarationOnly --outDir ./dist/@types"
   },
-  "excludeDependencies": [
-    "<package you want to exclude while building> [excluded package needs to be installed where you want to use this package]"
-  ],
   "dependencies": {},
   "peerDependencies": {},
   "devDependencies": {
